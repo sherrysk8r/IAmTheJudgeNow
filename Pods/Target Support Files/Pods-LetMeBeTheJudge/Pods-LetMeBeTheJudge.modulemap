@@ -1,0 +1,6 @@
+framework module Pods_LetMeBeTheJudge {
+  umbrella header "Pods-LetMeBeTheJudge-umbrella.h"
+
+  export *
+  module * { export * }
+}

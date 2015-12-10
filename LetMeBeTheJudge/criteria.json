@@ -1,0 +1,166 @@
+{
+    "components":[{
+                  "name": "Skating Skills",
+                  "criteria": [
+                               {
+                               "name": "Balance, rhythmic knee action, and precision of foot placement"
+                               },
+                               {
+                               "name": "Flow and effortless glide",
+                               "explanation": "Rhythm, strength, clean strokes, and an efficient use of lean create a steady run to the blade and an ease of transfer of weight resulting in seemingly effortless power and acceleration."
+                               },
+                               {
+                               "name": "Cleanness and sureness of deep edges, steps, and turns",
+                               "explanation": "The skater should demonstrate clean and controlled curves, deep edges, and steps."
+                               },
+                               {
+                               "name": "Varied use of power/energy, speed, and acceleration",
+                               "explanation": "Variety is the gradation – some of which may be subtle"
+                               },
+                               {
+                               "name": "Multi directional skating",
+                               "explanation": "Includes all direction of skating: forward and backward, clockwise and counterclockwise including rotation in both directions."
+                               },
+                               {
+                               "name": "Mastery of one foot skating",
+                               "explanation": "No over use of skating on two feet."
+                               },
+                               {
+                               "name": "Equal mastery of technique by both partners shown in unison.",
+                               "discipline": ["Pairs", "Ice Dance"]
+                               },
+                               {
+                               "name": "Ice coverage",
+                               "discipline": ["Ice Dance"]
+                               }
+                               ]}, {
+                  "name": "Technical Transitions",
+                  "criteria":[
+                              {
+                              "name": "Variety"
+                              },
+                              {
+                              "name": "Difficulty"
+                              },
+                              {
+                              "name": "Intricacy"
+                              },
+                              {
+                              "name": "Quality"
+                              },
+                              {
+                              "name": "Balance of workload between partners",
+                              "discipline": ["Pairs", "Ice Dance"]
+                              },
+                              {
+                              "name": "Variety of Dance holds",
+                              "explanation": "not excessive side by side and hand in hand",
+                              "discipline": ["Ice Dance"]
+                              }
+                              ]}, {
+                  "name": "Performance/Execution",
+                  "criteria": [
+                               {
+                               "name": "Physical, emotional, and intellectual involvement",
+                               "explanation": "In all skating disciplines each skater must be physically committed, sincere in emotion, and equal in comprehension of the music and in execution of all movement."
+                               },
+                               {
+                               "name": "Carriage",
+                               "explanation": "Carriage is a trained inner strength of the body that makes possible ease of movement from the center of the body. Alignment is the fluid change from one movement to the next."
+                               },
+                               {
+                               "name": "Style and individuality/personality",
+                               "explanation": "Style is the distinctive use of line and movement as inspired by the music. Individuality/personality is a combination of personal and artistic preferences that a skater/pair/couple brings to the concept, manner, and content of the program"
+                               },
+                               {
+                               "name": "Clarity of movement",
+                               "explanation": "Clarity is characterized by the refined lines of the body and limbs, as well as the precise execution of any movement."
+                               },
+                               {
+                               "name": "Variety and contrast",
+                               "explanation": "Varied use of tempo, rhythm, force, size, level, movement shapes, angles, and, body parts as well as the use of contrast."
+                               },
+                               {
+                               "name": "Projection",
+                               "explanation": "The skater radiates energy resulting in an invisible connection with the audience."
+                               },
+                               {
+                               "name": "Unison and \"oneness\"",
+                               "explanation": "Each skater contributes equally toward achieving all six of the performance criteria",
+                               "discipline": ["Pairs", "Ice Dance"]
+                               },
+                               {
+                               "name": "Balance in performance",
+                               "discipline": ["Pairs", "Ice Dance"]
+                               },
+                               {
+                               "name": "Spatial Awareness between partners",
+                               "explanation": " management of the distance between partners and management of changes of hold",
+                               "discipline": ["Pairs", "Ice Dance"]
+                               }
+                               ]}, {
+                  "name": "Choreography/Composition",
+                  "criteria": [
+                               {
+                               "name": "Purpose: (Idea, concept, vision, mood)",
+                               "explanation": "To reward the intentional and quality design of a program."
+                               },
+                               {
+                               "name": "Proportion (equal weight of all parts)",
+                               "explanation": "Each part and section has equal weight in achieving the aesthetic pursuit of the composition."
+                               },
+                               {
+                               "name": "Unity – purposeful threading of all movements",
+                               "explanation": "A program achieves unity when: every step, movement, and element is motivated by the music. As well, all its parts, big or small, seem necessary to the whole, and there is an underlying vision or symbolic meaning that threads together the entire composition."
+                               },
+                               {
+                               "name": "Utilization of Personal and Public Space",
+                               "explanation": "Movement phrases are distributed in such a way they communicate from every angle in a 360 degree skater-viewer relationship."
+                               },
+                               {
+                               "name": "Pattern and Ice Coverage",
+                               "explanation": "Movement phrases are designed using an interesting and meaningful variety of patterns and directions of travel."
+                               },
+                               {
+                               "name": "Phrasing and Form (movement and parts are structured to match the phrasing of the music)",
+                               "explanation": "A phrase is a unit of movement marked by an impulse of energy that grows, builds, finds a conclusion, and then flows easily and naturally into the next movement phrase. Form is the presentation of an idea, the development of the idea, and its conclusion presented in a specific number of parts and a specific order for design."
+                               },
+                               {
+                               "name": "Originality of Purpose, Movement, and Design",
+                               "explanation": "Originality involves an individual perspective of movement and design in pursuit of a creative composition as inspired by the music and the underlying vision"
+                               },
+                               {
+                               "name": "Shared Responsibility of Purpose",
+                               "explanation": "Each skater has equal roles in achieving the aesthetic pursuit of the composition with equal steps, movements, and a sense of purpose in unifying the composition.",
+                               "discipline": ["Pairs", "Ice Dance"]
+                               }
+                               ]}, {
+                  "name": "Interpretation/Timing",
+                  "criteria": [
+                               {
+                               "name": "Effortless Movements in Time to the Music (Timing)",
+                               "explanation": "The ability to translate music through sureness of rhythm, tempo, effective movement, and effortless flow over the ice surface by: rhythmic continuity, awareness of all tempo/rhythm changes in a variety of ways."
+                               },
+                               {
+                               "name": "Expression of the music’s style, character, and rhythm",
+                               "explanation": "Maintaining the character and style of the music throughout the entire program by use of body and skating techniques to depict a mood, style, shape, or thematic idea as motivated by the structure of the music: melody, harmony, rhythm, color, texture, and form. The total involvement of the body and being should express the intent of the music."
+                               },
+                               {
+                               "name": "Use of finesse to reflect the nuances of music.",
+                               "explanation": "Finesse is the skater’s refined, artful manipulation of nuances. Nuances are the personal, artistic ways of bringing subtle variations to the intensity, tempo, and dynamics of the music made by the composer and/or the musician."
+                               },
+                               {
+                               "name": "Relationship between the partners reflecting the character of the music.",
+                               "explanation": "Interpretive unison is an equal partnership with the same degree of sensitivity between partners not only to the music, but also to the equal understanding of the music’s nuances. There is an intimacy between the partners that is characterized by a feeling of \"surrender\" to the music and possibly to each other that creates an entity greater than the two of them."
+                               },
+                               {
+                               "name": "Appropriateness of music",
+                               "discipline": ["Ice Dance"]
+                               },
+                               {
+                               "name": "Effortless Movements in Time to the Music (Timing)",
+                               "discipline": ["Ice Dance"]
+                               }
+                               ]}
+                  ]
+}

@@ -1,0 +1,456 @@
+{
+    "elements": [
+                 {
+                 "name": "Jumps",
+                 "criteria": [
+                              "Unexpected / creative / difficult entry",
+                              "Clear recognizable steps/free skating movements immediately preceding element",
+                              "Varied position in the air / delay in rotation",
+                              "Great height and/or distance",
+                              "Superior extension on landing / creative exit",
+                              "Superior flow in and out (and in-between in jump combinations / sequences)"
+                              ],
+                 "deductions": [{
+                                "name": "One or more rev. less than required",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Combo consisting of one jump only",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "No required steps/movements preceding jump",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Break between required steps/movements & jump/only one step/movement preceding jump",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Fall",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Starting or landing on two feet in a jump",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Stepping out of landing in a jump",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Touch down with both hands in a jump",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "2 three turns in between (jump combo)",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Poor speed, height, distance, air position",
+                                "minImpactOnGOE": -1,
+                                "maxImpactOnGOE": -2
+                                }, {
+                                "name": "Under rotated",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                },{
+                                "name": "Loss of flow/rhythm between jumps (combo/seq.)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Weak landing (bad pos./wrong edge/scratching etc)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Long preparation",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Touch down with one hand or free foot",
+                                "minImpactOnGOE": -1
+                                }, {
+                                "name": "Starting from wrong edge in F/Lz",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -2
+                                }, {
+                                "name": "Unclear edge at take-off in F/Lz (sign “!”)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }
+                                ]
+                 },{
+                 "name": "Spins",
+                 "criteria": [
+                              "Good control throughout (entry, rotation, change of foot, conclusion/exit)",
+                              "Good speed or acceleration during spin",
+                              "Balanced rotations (on different feet / in different positions or variations)",
+                              "Clearly more than required number of revolutions",
+                              "Superior position(s) (including air position in flying spins)",
+                              "Creativity and originality"
+                              ],
+                 "deductions": [{
+                                "name": "Fall during the spin",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Touch down with both hands",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Re-centering of the spin",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Touch down with free foot or one hand",
+                                "minImpactOnGOE": -1
+                                }, {
+                                "name": "Traveling",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Inconsistent speed of rotation (eg slows down)",
+                                "minImpactOnGOE": -1
+                                }, {
+                                "name": "Less than required revolutions",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Change of foot poorly executed (eg moving to an intermediate pos. during the change in a sit spin)",
+                                "minImpactOnGOE": -3,
+                                "maxImapctOnGOE": -1
+                                }, {
+                                "name": "Weak or poor position(s)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }]
+                 },{
+                 "name": "Step Sequence",
+                 "criteria": [
+                              "Good energy and execution",
+                              "Good speed or acceleration during sequence",
+                              "Good timing according to the music",
+                              "Highlights the character of the program",
+                              "Superior control and commitment of whole body to accuracy of steps",
+                              "Creativity and originality",
+                              "Good unison (pairs)"
+                              ]
+                 ,
+                 "deductions": [{
+                                "name": "Listed jumps with more than half rev. included",
+                                "minImpactOnGOE": -1
+                                }, {
+                                "name": "Fall",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name" : "Less than half of the pattern doing steps/turns",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -2
+                                }, {
+                                "name": "Poor quality of steps, turns, positions",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Stumble",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Does not correspond to the music",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }
+                                ]
+                 },{
+                 "name": "Pair Lifts",
+                 "criteria": ["Good take-off and landing position of both partners", "Correct and aesthetically pleasing air positions", "Good ice coverage during element", "No scratching of blade on the ice by man or lady during all phases", "Good speed and flow ", "Ability to maintain good flow from one position to another", "Effortless throughout", "Element matched to the musical structure"],
+                 "deductions": [{
+                                "name": "Fall",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Poor speed and/or ice coverage",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Serious problems in the lifting process",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Poor turns by man and/or stops in rotation",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Slight problems in the lifting process",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Poor take-off/weak landing",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Lady collapses on partner",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Too long getting into a basic position or its variation",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Lady starts or lands on two feet",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Touch down with the free foot",
+                                "minImpactOnGOE": -1
+                                }, {
+                                "name": "Poor positions in the air or on landing",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Long preparation",
+                                "minImpactOnGOE": -1
+                                }]
+                 },{
+                 "name": "Twist Lifts",
+                 "criteria": ["Good take-off and landing position of both partners", "Good position of man at release", "Good ice coverage during element", "No scratching of blade on the ice by man or lady during all phases", "Good speed and timing from entry to exit", "Good height of lady in air position", "Effortless throughout", "Element matched to the musical structure"],
+                 "deductions": [{
+                                "name" : "Fall",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Lady collapses on partner",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -2
+                                }, {
+                                "name": "Poor height or distance",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Lady is not caught in the air before landing",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Poor take-off (poor speed, serious scratching, no toepick)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Catch assisted by the man’s shoulder",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Weak landing (poor speed, bad positions, awkward catch)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Lady lands on two feet",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Lady is not caught at the waist",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Lady touches down with both hands",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Long preparation",
+                                "minImpactOnGOE": -1
+                                }, {
+                                "name": "Touch down with the free foot",
+                                "minImpactOnGOE": -1
+                                }]
+                 },{
+                 "name": "Throw Jumps",
+                 "criteria": ["Unexpected / creative / difficult entry", "Good position of man at release", "Good air position of lady", "Good extension on landing / creative exit", "Good speed, height, distance", "Good control and flow on the landing", "Effortless throughout", "Element matched to the musical structure"],
+                 "deductions": [{
+                                "name": "Fall",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Poor speed, height, distance, air position",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Starting or landing on two feet in a jump",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "No unison – jump elements",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Stepping out of landing in a jump",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Big distance between partners– jump elements",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Unequal number of revolutions by partners",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Poor take-off",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Loss of flow/direction/rhythm between jumps (combo/seq.)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Under-rotated (sign <)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Poor man’s position at take-off – throw jump",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Weak landing (bad pos./wrong edge/scratching etc)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "2 three turns in between – jump combo",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Long preparation",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Touch down with both hands in a jump",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Touch down with one hand or free foot",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }]
+                 },{
+                 "name": "Solo Spins",
+                 "criteria": ["Good speed or acceleration during spin", "Ability to center a spin quickly", "Balanced rotations in all positions", "Clearly more than required number of rev", "Good and identical positions by both partners", "Good control throughout all phases by both partners", "Good unison and distance between partners", "Element matched to the musical structure"],
+                 "deductions": [{
+                                "name": "Change of foot not at the same time ",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Fall",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Touch down with both hands",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Touch down with free foot or one hand",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Slow or reduction of speed",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "No unison, too big distance between partners",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Incorrect take-off or landing (flying spin/entry)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Less than required revolutions (6 revolutions)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Poor/awkward, unaesthetic position(s)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Traveling",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Change of foot poorly done (including curve of entry/exit except when changing direction)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Stop during spin (except when changing direction) ",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Poor fly (flying spin/entry)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }]
+                 },
+                 {
+                 "name": "Pair Spins",
+                 "criteria": ["Good control throughout (entry, rotation, conclusion/exit) by both partners", "Good speed or acceleration during spin", "Balanced rotations in all positions", "Clearly more than required number of rev.", "Good positions by both partners", "Creativity and originality", "Executed with continuous flow and ease", "Element matched to the musical structure"],
+                 "deductions": [{
+                                "name": "Change of foot not at the same time ",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Fall",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Touch down with both hands",
+                                "minImpactOnGOE": -2
+                                }, {
+                                "name": "Touch down with free foot or one hand",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Slow or reduction of speed",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "No unison, too big distance between partners",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Incorrect take-off or landing (flying spin/entry)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Less than required revolutions (6 revolutions)",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Poor/awkward, unaesthetic position(s)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Traveling",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Change of foot poorly done (including curve of entry/exit except when changing direction)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Stop during spin (except when changing direction) ",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Poor fly (flying spin/entry)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }]
+                 },
+                 {
+                 "name": "Death Spirals",
+                 "criteria": ["Good flow in entry and exit", "Good control and speed in death spiral position", "Good quality of positions of both partners", "No scratching of blade on the ice by man or lady during all phases", "Good, controlled transition into required position", "Effortless throughout", "Creativity and originality", "Element matched to the musical structure"],
+                 "deductions": [{
+                                "name": "Fall",
+                                "minImpactOnGOE": -3
+                                }, {
+                                "name": "Wrong pivot position (losing toe pick etc.)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -2
+                                }, {
+                                "name": "Lady assisted not only by the blades",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -2
+                                }, {
+                                "name": "Poor position of the lady (too high etc.)",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Poor exit",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Any part of the lady’s body (not the hair) touching the ice",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Slow or reduction of speed",
+                                "minImpactOnGOE": -3,
+                                "maxImpactOnGOE": -1
+                                }, {
+                                "name": "Weak lady’s edge quality",
+                                "minImpactOnGOE": -1
+                                }, {
+                                "name": "Use of both arms of man/lady to help the exit",
+                                "minImpactOnGOE": -2,
+                                "maxImpactOnGOE": -1
+                                }]
+                 }
+                 ]
+}

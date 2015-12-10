@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FD1F7806-522E-49C9-9C9A-86D2CDCA2371</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LetMeBeTheJudge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4DFD800B4DD6C60ABE3DE86853F655051D51FC75</key>
+		<string>github.com:sherryxue/IAmTheJudgeNow.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LetMeBeTheJudge.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4DFD800B4DD6C60ABE3DE86853F655051D51FC75</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:sherryxue/IAmTheJudgeNow.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4DFD800B4DD6C60ABE3DE86853F655051D51FC75</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4DFD800B4DD6C60ABE3DE86853F655051D51FC75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LetMeBeTheJudge</string>
+		</dict>
+	</array>
+</dict>
+</plist>
