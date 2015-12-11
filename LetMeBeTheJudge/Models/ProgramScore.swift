@@ -13,7 +13,7 @@ class ProgramScore {
     var technicalManager: TechnicalManager
     
     var componentScores: ComponentScores
-    var technicalScores = [String : Float]()
+    var technicalScores: [(element: String, value: Float)] = []
     
     var discipline: Discipline?
     var segment: Segment?
@@ -54,13 +54,14 @@ class ProgramScore {
     
     func minTechnicalGraded() -> Bool {
         var required = NSSet(array: technicalManager.getApplicableElements(discipline!))
-        var scored = NSSet(array: Array(technicalScores.keys))
+        var scored = NSSet(array: map(technicalScores) {$0.element})
         return required.isSubsetOfSet(scored as Set<NSObject>)
     }
     
     func calcTES() {
         if allComponentsGraded(){
-            self.TES = Array(technicalScores.values.array).reduce(0, combine: + )
+            self.TES = Array(map(technicalScores) {$0.value}).reduce(0, combine: + )
+            println(self.TES)
         }
     }
     

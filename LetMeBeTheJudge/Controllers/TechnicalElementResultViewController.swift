@@ -134,7 +134,9 @@ class TechnicalElementResultViewController: UIViewController {
     }
     
     func saveElement() {
-        programScore?.technicalScores[element!] = factoredGOE + baseValue
+        var newElement = [(element: element!, value: factoredGOE + baseValue)]
+        programScore!.technicalScores += newElement
+//        programScore?.technicalScores[element!] = factoredGOE + baseValue
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

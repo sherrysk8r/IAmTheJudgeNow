@@ -24,6 +24,8 @@
 		4B27FDC61C0FC0C800F94EB5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B27FDC51C0FC0C700F94EB5 /* DataManager.swift */; };
 		4B27FDC81C0FC1B500F94EB5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B27FDC71C0FC1B500F94EB5 /* SwiftyJSON.swift */; };
 		4B27FDCA1C0FC3F900F94EB5 /* ComponentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B27FDC91C0FC3F900F94EB5 /* ComponentManager.swift */; };
+		4B3F61C21C1A5B3100DF30CD /* Pods_LetMeBeTheJudge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4222930E36B83F5C036B82E0 /* Pods_LetMeBeTheJudge.framework */; };
+		4B3F61C31C1A5B3100DF30CD /* Pods_LetMeBeTheJudge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4222930E36B83F5C036B82E0 /* Pods_LetMeBeTheJudge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B4B155F1C166FA000F5330A /* graph_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B155E1C166FA000F5330A /* graph_icon.png */; };
 		4B5CA27E1C100A1500AAA792 /* iceDanceBlue1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CA27D1C100A1500AAA792 /* iceDanceBlue1.png */; };
 		4B5CA2801C100A1B00AAA792 /* iceDanceWhite1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CA27F1C100A1B00AAA792 /* iceDanceWhite1.png */; };
@@ -110,6 +112,20 @@
 			remoteInfo = LetMeBeTheJudge;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B3F61C41C1A5B3100DF30CD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4B3F61C31C1A5B3100DF30CD /* Pods_LetMeBeTheJudge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0710A2CDC0FD79B56C86962D /* Pods-LetMeBeTheJudge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetMeBeTheJudge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetMeBeTheJudge/Pods-LetMeBeTheJudge.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3F61C21C1A5B3100DF30CD /* Pods_LetMeBeTheJudge.framework in Frameworks */,
 				4BB1F0821C190A44007AC90E /* SwiftCharts.framework in Frameworks */,
 				30383AB661FFAEB6A50BBF53 /* Pods_LetMeBeTheJudge.framework in Frameworks */,
 			);
@@ -429,6 +446,7 @@
 				4B27FD881C0EBDB000F94EB5 /* Resources */,
 				44F13CC24D3921E57BAD7590 /* Embed Pods Frameworks */,
 				ABB2C57AE8A82620C11E9F86 /* Copy Pods Resources */,
+				4B3F61C41C1A5B3100DF30CD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
