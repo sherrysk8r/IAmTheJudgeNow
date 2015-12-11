@@ -32,7 +32,6 @@ class ComponentResultViewController: UIViewController {
         
         var percent = round(Float(criteriaMet)/Float(applicableCriteria) * 1000)/1000
         component!.calcScore(percent)
-        println(component!.score)
         finalScoreValue = round(component!.score*Float(programScore!.getFactor())*100)/100
         
         programScore?.saveComponentScore(component!.type!, score: component!.score )

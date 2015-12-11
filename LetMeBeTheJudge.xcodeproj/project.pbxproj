@@ -89,7 +89,6 @@
 		4BB1F0881C191072007AC90E /* SwiftChartDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F0871C191072007AC90E /* SwiftChartDefaults.swift */; };
 		4BB1F08A1C1931D2007AC90E /* TwistLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F0891C1931D2007AC90E /* TwistLift.swift */; };
 		4BB1F08C1C1931E2007AC90E /* PairLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F08B1C1931E2007AC90E /* PairLift.swift */; };
-		4BB1F08E1C1940DA007AC90E /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F08D1C1940DA007AC90E /* Lift.swift */; };
 		4BB1F0901C19ACC8007AC90E /* LevelFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F08F1C19ACC8007AC90E /* LevelFormViewController.swift */; };
 		4BB1F0921C19E4B5007AC90E /* PairSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F0911C19E4B5007AC90E /* PairSpin.swift */; };
 		4BB1F0941C19FDF6007AC90E /* GOEFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F0931C19FDF6007AC90E /* GOEFormViewController.swift */; };
@@ -98,6 +97,8 @@
 		4BB1F09A1C1A2A24007AC90E /* Twizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F0991C1A2A24007AC90E /* Twizzle.swift */; };
 		4BB1F0A11C1A34C5007AC90E /* done2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB1F09F1C1A34C5007AC90E /* done2.png */; };
 		4BB1F0A21C1A34C5007AC90E /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB1F0A01C1A34C5007AC90E /* house.png */; };
+		4BF3C9C11C1A430100F724BF /* LiftManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3C9C01C1A430100F724BF /* LiftManager.swift */; };
+		4BF3C9C31C1A487C00F724BF /* DeathSpiralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3C9C21C1A487C00F724BF /* DeathSpiralViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,7 +199,6 @@
 		4BB1F0871C191072007AC90E /* SwiftChartDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftChartDefaults.swift; sourceTree = "<group>"; };
 		4BB1F0891C1931D2007AC90E /* TwistLift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwistLift.swift; sourceTree = "<group>"; };
 		4BB1F08B1C1931E2007AC90E /* PairLift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairLift.swift; sourceTree = "<group>"; };
-		4BB1F08D1C1940DA007AC90E /* Lift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
 		4BB1F08F1C19ACC8007AC90E /* LevelFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelFormViewController.swift; sourceTree = "<group>"; };
 		4BB1F0911C19E4B5007AC90E /* PairSpin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairSpin.swift; sourceTree = "<group>"; };
 		4BB1F0931C19FDF6007AC90E /* GOEFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOEFormViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +207,8 @@
 		4BB1F0991C1A2A24007AC90E /* Twizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Twizzle.swift; sourceTree = "<group>"; };
 		4BB1F09F1C1A34C5007AC90E /* done2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done2.png; sourceTree = "<group>"; };
 		4BB1F0A01C1A34C5007AC90E /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		4BF3C9C01C1A430100F724BF /* LiftManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftManager.swift; sourceTree = "<group>"; };
+		4BF3C9C21C1A487C00F724BF /* DeathSpiralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeathSpiralViewController.swift; sourceTree = "<group>"; };
 		82C2FE23594B7ED20B2CB075 /* Pods-LetMeBeTheJudge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetMeBeTheJudge.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetMeBeTheJudge/Pods-LetMeBeTheJudge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -363,7 +365,6 @@
 				4B27FDB71C0ECA1800F94EB5 /* Jump.swift */,
 				4BB1EFD51C17BB8C007AC90E /* JumpManager.swift */,
 				4B5CA2CA1C12869600AAA792 /* JumpType.swift */,
-				4BB1F08D1C1940DA007AC90E /* Lift.swift */,
 				4BB1EFD11C17B21E007AC90E /* LiftTypes.swift */,
 				4BB1F08B1C1931E2007AC90E /* PairLift.swift */,
 				4BB1F0911C19E4B5007AC90E /* PairSpin.swift */,
@@ -381,6 +382,7 @@
 				4BB1EFD71C17C462007AC90E /* ThrowJump.swift */,
 				4BB1F0891C1931D2007AC90E /* TwistLift.swift */,
 				4BB1F0991C1A2A24007AC90E /* Twizzle.swift */,
+				4BF3C9C01C1A430100F724BF /* LiftManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -400,6 +402,7 @@
 				4BB1F08F1C19ACC8007AC90E /* LevelFormViewController.swift */,
 				4BB1EFE11C17D9BE007AC90E /* TechnicalElementResultViewController.swift */,
 				4BB1EFDF1C17D6BE007AC90E /* ThrowJumpViewController.swift */,
+				4BF3C9C21C1A487C00F724BF /* DeathSpiralViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 				4B27FDCA1C0FC3F900F94EB5 /* ComponentManager.swift in Sources */,
 				4BB1EFE61C1809BD007AC90E /* Revolutions.swift in Sources */,
 				4B5CA2CD1C128B1900AAA792 /* TechnicalManager.swift in Sources */,
+				4BF3C9C31C1A487C00F724BF /* DeathSpiralViewController.swift in Sources */,
 				4B7D2BF81C15F50000049B1E /* Deduction.swift in Sources */,
 				4BB1EFD81C17C462007AC90E /* ThrowJump.swift in Sources */,
 				4BB1EFD41C17BAC6007AC90E /* BaseValueJumps.swift in Sources */,
@@ -625,6 +629,7 @@
 				4B27FD901C0EBDB000F94EB5 /* AppDelegate.swift in Sources */,
 				4BB1EFD01C1797D7007AC90E /* GOEPoints.swift in Sources */,
 				4B7D2BF41C15B13400049B1E /* StepSequence.swift in Sources */,
+				4BF3C9C11C1A430100F724BF /* LiftManager.swift in Sources */,
 				4B5CA2D11C134C4100AAA792 /* HelpViewController.swift in Sources */,
 				4BB1EFCC1C172349007AC90E /* GOE.swift in Sources */,
 				4B27FDBE1C0F515C00F94EB5 /* ComponentType.swift in Sources */,
@@ -636,7 +641,6 @@
 				4B5CA2BD1C10B4FF00AAA792 /* ComponentResultViewController.swift in Sources */,
 				4BB1F0961C1A05E6007AC90E /* ChooseSpinViewController.swift in Sources */,
 				4B27FDC61C0FC0C800F94EB5 /* DataManager.swift in Sources */,
-				4BB1F08E1C1940DA007AC90E /* Lift.swift in Sources */,
 				4B27FDB81C0ECA1800F94EB5 /* Jump.swift in Sources */,
 				4BB1EFCA1C17145D007AC90E /* Features.swift in Sources */,
 				4B5CA2C51C120BAC00AAA792 /* ChooseJumpViewController.swift in Sources */,

@@ -54,7 +54,8 @@ class LevelFormViewController: UIViewController, UITableViewDelegate, UITableVie
             let vc = segue.destinationViewController as! GOEFormViewController
             vc.programScore = programScore!
             vc.element = element!
-            vc.elementObj = elementObj
+            vc.elementObj = elementObj!
+            
         }
     }
     
@@ -113,6 +114,15 @@ class LevelFormViewController: UIViewController, UITableViewDelegate, UITableVie
             if let e = elementObj as? ScoreSpin {
                 e.setLevel(level)
                 e.setFeaturesMet(numFeaturesMet)
+                elementObj = e
+            }
+        }
+        
+        if element == "Death Spiral" {
+            if let e = elementObj as? DeathSpiral {
+                e.setLevel(level)
+                e.setFeaturesMet(numFeaturesMet)
+                elementObj = e
             }
         }
     }

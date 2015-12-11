@@ -102,7 +102,13 @@ class ElementViewController: UIViewController {
             if contains(Array(technicalButtons.keys), requirement) {
                 button.tag = technicalButtons[requirement]!
             }
+            
             contentView.addSubview(button)
+            
+            if requirement == "Twist Lifts" || requirement == "Pair Lifts" {
+                button.enabled = false
+                button.backgroundColor = UIColor.grayColor()
+            }
         }        
     }
     
@@ -175,7 +181,7 @@ class ElementViewController: UIViewController {
         } else if sender!.tag == technicalButtons["Pair Spins"] {
             self.performSegueWithIdentifier("gradeLevel", sender: sender)
         } else if sender!.tag == technicalButtons["Death Spiral"] {
-            
+            self.performSegueWithIdentifier("pickDeathSpiral", sender: sender)
         } else if sender!.tag == technicalButtons["Dance Lifts"] {
             
         } else if sender!.tag == technicalButtons["Twizzles"] {
@@ -224,11 +230,17 @@ class ElementViewController: UIViewController {
             vc.programScore = programScore!
             var keys = (technicalButtons as NSDictionary).allKeysForObject(sender!.tag) as! [String]
             vc.element = keys.first!
-            println(vc.element)
         }
         
         if segue.identifier == "chooseSpin" {
             let vc = segue.destinationViewController as! ChooseSpinViewController
+            var keys = (technicalButtons as NSDictionary).allKeysForObject(sender!.tag) as! [String]
+            vc.programScore = programScore!
+            vc.element = keys.first!
+        }
+        
+        if segue.identifier == "pickDeathSpiral" {
+            let vc = segue.destinationViewController as! DeathSpiralViewController
             var keys = (technicalButtons as NSDictionary).allKeysForObject(sender!.tag) as! [String]
             vc.programScore = programScore!
             vc.element = keys.first!

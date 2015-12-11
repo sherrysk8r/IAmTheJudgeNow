@@ -17,6 +17,26 @@ enum LiftTypes: String {
     
     static let twistLifts = [LutzTwistLifts, FlipTwistLifts, ToeloopTwistLifts, AxelTwistLifts]
     
+    func getAbbrev() -> String {
+        switch self {
+        case .ArmpitHoldLifts, .WaistHoldLifts, .HandToHipLifts, .HandToHandLifts:
+            return "\(self.getGroup())Li"
+        case .ToeStepLassoLifts:
+            return "5T/SLi"
+        case .AxelReverseLassoLifts:
+            return "5A/RLi"
+        case .LutzTwistLifts:
+            return "LzTw"
+        case .FlipTwistLifts:
+            return "FTw"
+        case .ToeloopTwistLifts:
+            return "TTw"
+        case .AxelTwistLifts:
+            return "ATw"
+        default:
+            return "Tw"
+        }
+    }
     
     func getGroup() -> Int {
         switch self{

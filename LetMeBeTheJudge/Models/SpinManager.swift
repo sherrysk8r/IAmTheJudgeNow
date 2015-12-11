@@ -10,7 +10,6 @@ import Foundation
 
 class SpinManager {
     var spins = [SpinType: Spin]() //defines the base values
-    var features = [String]()
     var deductions = [Deduction]()
     var positiveGOE = [String]()
     

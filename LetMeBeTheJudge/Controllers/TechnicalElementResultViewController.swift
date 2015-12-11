@@ -69,6 +69,10 @@ class TechnicalElementResultViewController: UIViewController {
         if let e = elementObj as? ScoreSpin {
             factoredGOE = GOEPoints.getSpinGOE(unfactoredGOE)
         }
+        
+        if let e = elementObj as? DeathSpiral {
+            factoredGOE = GOEPoints.getDeathSpirals(unfactoredGOE)
+        }
     }
     
     func setName() {
@@ -89,6 +93,10 @@ class TechnicalElementResultViewController: UIViewController {
         }
         
         if let e = elementObj as? ScoreSpin {
+            name.text = "\(e.getName()) : \(e.getAbbrev())"
+        }
+        
+        if let e = elementObj as? DeathSpiral {
             name.text = "\(e.getName()) : \(e.getAbbrev())"
         }
     }
@@ -115,6 +123,11 @@ class TechnicalElementResultViewController: UIViewController {
         }
         
         if let e = elementObj as? ScoreSpin {
+            displayBaseValue.text = "\(e.getBaseValue())"
+            baseValue = e.getBaseValue()
+        }
+        
+        if let e = elementObj as? DeathSpiral {
             displayBaseValue.text = "\(e.getBaseValue())"
             baseValue = e.getBaseValue()
         }

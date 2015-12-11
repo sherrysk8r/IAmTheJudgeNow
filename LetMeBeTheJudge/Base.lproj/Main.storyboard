@@ -7,6 +7,88 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
+        <!--Death Spiral View Controller-->
+        <scene sceneID="AYh-L6-L67">
+            <objects>
+                <viewController id="BuK-sJ-PkF" customClass="DeathSpiralViewController" customModule="LetMeBeTheJudge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vqH-py-oqG"/>
+                        <viewControllerLayoutGuide type="bottom" id="pMn-gi-YDM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KtE-Jn-gS1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick the Combination" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAU-dA-nf5">
+                                <rect key="frame" x="154" y="67" width="292" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="292" id="Q1k-yj-3mu"/>
+                                    <constraint firstAttribute="height" constant="53" id="i6u-Ra-N0U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2PW-A5-Ryh">
+                                <rect key="frame" x="16" y="165" width="568" height="29"/>
+                                <segments>
+                                    <segment title="Inside"/>
+                                    <segment title="Outside"/>
+                                </segments>
+                                <color key="tintColor" red="0.1529411765" green="0.57647058819999997" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="edgeSelection:" destination="BuK-sJ-PkF" eventType="valueChanged" id="AW7-wQ-BfL"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sgw-By-5Mc">
+                                <rect key="frame" x="16" y="294" width="568" height="29"/>
+                                <segments>
+                                    <segment title="Forward"/>
+                                    <segment title="Backward"/>
+                                </segments>
+                                <color key="tintColor" red="0.1529411765" green="0.57647058819999997" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="directionSelection:" destination="BuK-sJ-PkF" eventType="valueChanged" id="Tq3-Kr-ejG"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5O6-Cy-cEq">
+                                <rect key="frame" x="16" y="544" width="568" height="36"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.57647058819999997" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DEt-Io-DHg" kind="show" identifier="gradeLevel" id="VIu-QP-P1g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sgw-By-5Mc" firstAttribute="trailing" secondItem="KtE-Jn-gS1" secondAttribute="trailingMargin" id="0uM-aC-6g3"/>
+                            <constraint firstItem="2PW-A5-Ryh" firstAttribute="top" secondItem="NAU-dA-nf5" secondAttribute="bottom" constant="45" id="0y9-vB-hZh"/>
+                            <constraint firstItem="pMn-gi-YDM" firstAttribute="top" secondItem="5O6-Cy-cEq" secondAttribute="bottom" constant="20" id="4nv-CF-Xbp"/>
+                            <constraint firstItem="2PW-A5-Ryh" firstAttribute="centerX" secondItem="NAU-dA-nf5" secondAttribute="centerX" id="AGx-eL-u3w"/>
+                            <constraint firstItem="NAU-dA-nf5" firstAttribute="top" secondItem="vqH-py-oqG" secondAttribute="bottom" constant="47" id="FuK-y0-vkI"/>
+                            <constraint firstAttribute="centerX" secondItem="NAU-dA-nf5" secondAttribute="centerX" id="IVa-Hi-Y7s"/>
+                            <constraint firstItem="5O6-Cy-cEq" firstAttribute="trailing" secondItem="KtE-Jn-gS1" secondAttribute="trailingMargin" id="W4h-wK-uf7"/>
+                            <constraint firstItem="2PW-A5-Ryh" firstAttribute="trailing" secondItem="KtE-Jn-gS1" secondAttribute="trailingMargin" id="gwK-nT-TSI"/>
+                            <constraint firstItem="sgw-By-5Mc" firstAttribute="top" secondItem="2PW-A5-Ryh" secondAttribute="bottom" constant="101" id="mI9-IS-CQq"/>
+                            <constraint firstItem="sgw-By-5Mc" firstAttribute="leading" secondItem="KtE-Jn-gS1" secondAttribute="leadingMargin" id="pad-4u-O98"/>
+                            <constraint firstItem="2PW-A5-Ryh" firstAttribute="centerX" secondItem="sgw-By-5Mc" secondAttribute="centerX" id="rot-yU-GpB"/>
+                            <constraint firstItem="2PW-A5-Ryh" firstAttribute="leading" secondItem="KtE-Jn-gS1" secondAttribute="leadingMargin" id="uiW-Gk-GbM"/>
+                            <constraint firstItem="5O6-Cy-cEq" firstAttribute="leading" secondItem="KtE-Jn-gS1" secondAttribute="leadingMargin" id="ylM-FM-nhx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="direction" destination="sgw-By-5Mc" id="oNT-cl-8x1"/>
+                        <outlet property="edge" destination="2PW-A5-Ryh" id="fhp-Ff-zwd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ec5-mk-thW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="167" y="-729"/>
+        </scene>
         <!--Choose Spin View Controller-->
         <scene sceneID="9zh-ou-txa">
             <objects>
@@ -66,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GKs-i7-HOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="850" y="-836"/>
+            <point key="canvasLocation" x="747" y="-1710"/>
         </scene>
         <!--What are you Judging?-->
         <scene sceneID="tne-QT-ifu">
@@ -367,6 +449,7 @@
                         <segue destination="19e-5r-2Q3" kind="show" identifier="chooseThrowJump" id="jfI-Mc-vLh"/>
                         <segue destination="DEt-Io-DHg" kind="show" identifier="gradeLevel" id="OZy-xR-pEQ"/>
                         <segue destination="ibO-c0-BZP" kind="show" identifier="chooseSpin" id="MiH-Bl-Bse"/>
+                        <segue destination="BuK-sJ-PkF" kind="show" identifier="pickDeathSpiral" id="EFy-eo-on5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nCb-0p-ewA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -430,7 +513,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0b5-RG-QDD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1645" y="-1539"/>
+            <point key="canvasLocation" x="820" y="-1019"/>
         </scene>
         <!--Throw Jump View Controller-->
         <scene sceneID="KKh-TJ-ogU">
@@ -1306,9 +1389,9 @@
         <image name="pairWhite1.png" width="1614" height="1614"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9sm-gG-wHy"/>
         <segue reference="syl-Hg-GeD"/>
-        <segue reference="OZy-xR-pEQ"/>
+        <segue reference="YBa-Wr-6AG"/>
+        <segue reference="VIu-QP-P1g"/>
         <segue reference="Wsf-0Y-xb1"/>
         <segue reference="rRZ-4t-7CL"/>
     </inferredMetricsTieBreakers>

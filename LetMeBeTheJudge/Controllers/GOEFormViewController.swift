@@ -32,6 +32,7 @@ class GOEFormViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.criteria = programScore!.technicalManager.getCriteria(element)
         self.deductions = programScore!.technicalManager.getDeductions(element)
         
+        
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -93,9 +94,6 @@ class GOEFormViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func switchValueDidChange(sender:UISwitch!){
         var tag = sender!.tag
-        println(tag)
-        println("Num deductions\(deductions.count)")
-        println(criteria.count)
         if tag > criteria.count {
             if sender.on {
                 deductionsTaken[tag - criteria.count - 1] = 1
@@ -113,7 +111,6 @@ class GOEFormViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func calculateGOE() -> Int {
         var pos: Int = Array(criteriaMet.values).reduce(0, combine: + )
-        println(pos)
         var posGOE: Int = getPosGOE(pos)
         var negGOE: Int = 0
         

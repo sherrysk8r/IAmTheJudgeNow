@@ -40,7 +40,6 @@ class ChooseSpinViewController: UIViewController, UIPickerViewDelegate, UIPicker
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedSpinType = spinTypeData[row]
-        println(selectedSpinType.rawValue)
     }
     
     func createElementObj() -> ScoreSpin {
